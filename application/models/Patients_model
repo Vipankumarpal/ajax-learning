@@ -1,0 +1,10 @@
+<?php
+    class Patients_model extends CI_model{
+
+        function add($formArray){
+            $this->db->insert('patients',$formArray);
+        }
+
+       
+    }
+?>
